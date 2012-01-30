@@ -1,0 +1,86 @@
+lzop
+------------------------------------------
+
+Very fast Lempel-Ziv-Oberhumer packer
+
+A file compressor which is very similar to gzip. lzop uses the
+LZO data compression library for compression services, and its main
+advantages over gzip are much higher compression and decompression
+speed (at the cost of some compression ratio). On modern systems, when
+making backups of terrabyte of data, lzop is usually IO-bound and not
+CPU-bound, which means that you can both decrease storage requirements
+and effectively reduce backup time by quite an amount.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.lzop.org/
+  http://packages.debian.org/lzop
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Markus F.X.J. Oberhumer <lzop-bugs@oberhumer.com>
+  Bugs: <lzop-bugs@oberhumer.com>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack lzop-1.02rc1-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./lzop*.sh all
+
+This will create:
+  lzop-1.02rc1-1.tar.bz2
+  lzop-1.02rc1-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+usr/bin/lzop.exe
+usr/share/doc/Cygwin/lzop-1.02rc1.README
+usr/share/doc/lzop-1.02rc1/AUTHORS
+usr/share/doc/lzop-1.02rc1/COPYING
+usr/share/doc/lzop-1.02rc1/ChangeLog
+usr/share/doc/lzop-1.02rc1/INSTALL
+usr/share/doc/lzop-1.02rc1/NEWS
+usr/share/doc/lzop-1.02rc1/README
+usr/share/doc/lzop-1.02rc1/THANKS
+usr/share/doc/lzop-1.02rc1/lzop.html
+usr/share/doc/lzop-1.02rc1/lzop.pod
+usr/share/doc/lzop-1.02rc1/lzop.tex
+usr/share/doc/lzop-1.02rc1/lzop.txt
+usr/share/doc/lzop-1.02rc1/magic
+usr/share/man/man1/lzop.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.02rc1-1 -----
+- Initial release 2007-09-12 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later

@@ -1,0 +1,3 @@
+# Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
+tag1: lzop
+  http://www.lzop.org/ pregexp:tar.gz file:gz new: x:
