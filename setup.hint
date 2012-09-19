@@ -7,4 +7,4 @@ making backups of terrabyte of data, lzop is usually IO-bound and not
 CPU-bound, which means that you can both decrease storage requirements
 and effectively reduce backup time by quite an amount."
 category: Archive
-requires: cygwin
+requires: liblzo2_2
