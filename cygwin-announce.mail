@@ -5,7 +5,7 @@ Subject: Updated: lzop 1.03-1 -- Very fast Lempel-Ziv-Oberhumer packer
 PACKAGE DESCRIPTION
 ===================
 
-Homepage: http://www.lzop.org/
+Homepage: http://freecode.com/projects/lzop
 License : GPL
 
 Lzop is a file compressor which is very similar to gzip. lzop uses the
