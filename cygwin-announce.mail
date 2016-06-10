@@ -12,7 +12,7 @@ Lzop is a file compressor which is very similar to gzip. lzop uses the
 LZO data compression library for compression services, and its main
 advantages over gzip are much higher compression and decompression
 speed (at the cost of some compression ratio). On modern systems, when
-making backups of terrabyte of data, lzop is usually IO-bound and not
+making backups of terabyte of data, lzop is usually IO-bound and not
 CPU-bound, which means that you can both decrease storage requirements
 and effectively reduce backup time by quite an amount.
 
